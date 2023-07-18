@@ -301,6 +301,10 @@ def main():
     window = sg.Window('BinaryLab SentinelOne Deployment', layout, icon=image_path, size=(840, 900))
     stdout_wrapper = SGMultiLineWrapper(window['-OUTPUT-'])
 
+    if sys.platform.startswith("win"):
+        import ctypes
+        ctypes.windll.user32.ShowWindow(ctypes.windll.kernel32.GetConsoleWindow(), 0)
+
     while True:
         event, values = window.read()
         if event in (sg.WIN_CLOSED, 'Exit'):
