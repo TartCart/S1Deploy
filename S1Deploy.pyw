@@ -11,9 +11,6 @@ import csv
 import re
 import io
 
-# image path to BL icon
-image_path = path.abspath(path.join(path.dirname(__file__), 'BL.ico'))
-
 version = 1.0
 
 def ping_machine(ip_address):
@@ -279,7 +276,6 @@ def main():
     sg.theme('Darkteal6')
 
     layout = [
-        [sg.Text("For BinaryLab use only.", size=(80, 1)), sg.Text(f"Version: {version}")],
         [sg.T("")],
         [sg.Text("     Select the SentinelOne .MSI installer")],
         [sg.Text("", size=(1, 1)), sg.Input(size=80), sg.FilesBrowse(key="in1")],
