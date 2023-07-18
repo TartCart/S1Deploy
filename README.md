@@ -1,10 +1,9 @@
 # S1Deploy
-Deploy SentinelOne using python
+Deploy SentinelOne to windows machines using python and windows WMI 
 
+Designed to be turnied into an .exe using: `pyinstaller –onefile app.py –windowed`
 
-deploys SentinelOne across an environmnet using python with a lovely gui
-
-pip list
+`pip list`
 
 Package      Version
 ------------ -------
@@ -20,5 +19,4 @@ PySimpleGUI  4.60.5
 pyspnego     0.9.1  
 pywin32      306    
 setuptools   65.5.0 
-tqdm         4.65.0 
 WMI          1.5.1
