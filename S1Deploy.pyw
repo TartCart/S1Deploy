@@ -219,6 +219,7 @@ def work_work_zug_zug(window, values):
 
                         if install == True:
                             print("SentinelOne install successfully instantiated!")
+                            computer_info["s1_agent"] = True
                         else:
                             print("SentinelOne install cannot be instatiated: This could be because the installer itself failed, or the machine is old, slow and dusty..meaning the installer hasn't finshed")
                     else:
