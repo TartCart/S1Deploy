@@ -97,7 +97,6 @@ def export_to_csv(data, file_name):
     with open(file_path, 'w', newline='') as csv_file:
         writer = csv.writer(csv_file)
         # Write header row
-        print (data)
         writer.writerow(data[0].keys())
         # Write data rows
         for item in data:
