@@ -4,7 +4,7 @@ Deploy SentinelOne to windows machines using python and windows WMI
 Designed to be turnied into an .exe using: `pyinstaller –onefile app.py –windowed`
 
 `pip list`
-
+```
 Package      Version
 ------------ -------
 cffi         1.15.1 
@@ -20,3 +20,4 @@ pyspnego     0.9.1
 pywin32      306    
 setuptools   65.5.0 
 WMI          1.5.1
+```
