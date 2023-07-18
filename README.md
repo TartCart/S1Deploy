@@ -1,7 +1,7 @@
 # S1Deploy
 Deploy SentinelOne to windows machines using python and windows WMI 
 
-Designed to be turnied into an .exe using: `pyinstaller –onefile app.py –windowed`
+Designed to be turnied into an .exe using pyinstaller: `pyinstaller -F -n SentinelDeploy .\S1Deploy.py`
 
 `pip list`
 ```
