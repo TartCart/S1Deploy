@@ -1,2 +1,24 @@
 # S1Deploy
 Deploy SentinelOne using python
+
+
+deploys SentinelOne across an environmnet using python with a lovely gui
+
+pip list
+
+Package      Version
+------------ -------
+cffi         1.15.1 
+colorama     0.4.6  
+cryptography 41.0.2 
+Pillow       10.0.0 
+ping3        4.0.4  
+pip          23.1.2 
+pyasn1       0.5.0  
+pycparser    2.21   
+PySimpleGUI  4.60.5 
+pyspnego     0.9.1  
+pywin32      306    
+setuptools   65.5.0 
+tqdm         4.65.0 
+WMI          1.5.1
